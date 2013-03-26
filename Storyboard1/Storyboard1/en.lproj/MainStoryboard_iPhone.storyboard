@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Cci-p3-rKD">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="5">
+        <!--View Controller - Title-->
+        <scene sceneID="WwT-zg-IMR">
             <objects>
-                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3">
+                <viewController id="Cci-p3-rKD" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y8p-v5-QLr">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0Z-XO-TaS">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Zz-fz-4FG">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="GO1-UA-Xz2">
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGj-dp-NPh">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -25,12 +38,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="i0Z-XO-TaS" secondAttribute="trailing" constant="75" id="Msy-M4-ZCe"/>
-                            <constraint firstAttribute="bottom" secondItem="i0Z-XO-TaS" secondAttribute="bottom" constant="70" id="fmK-fL-LdD"/>
+                            <constraint firstItem="GO1-UA-Xz2" firstAttribute="leading" secondItem="Y8p-v5-QLr" secondAttribute="leading" type="default" id="3he-rW-Xbo"/>
+                            <constraint firstAttribute="bottom" secondItem="2Zz-fz-4FG" secondAttribute="bottom" constant="70" id="6fY-dI-qV7"/>
+                            <constraint firstItem="GO1-UA-Xz2" firstAttribute="bottom" secondItem="Y8p-v5-QLr" secondAttribute="bottom" type="default" id="C2o-tH-pL4"/>
+                            <constraint firstItem="oGj-dp-NPh" firstAttribute="leading" secondItem="2Zz-fz-4FG" secondAttribute="leading" type="default" id="eSe-kd-xxm"/>
+                            <constraint firstItem="GO1-UA-Xz2" firstAttribute="trailing" secondItem="Y8p-v5-QLr" secondAttribute="trailing" type="default" id="owB-lb-3kG"/>
+                            <constraint firstAttribute="trailing" secondItem="oGj-dp-NPh" secondAttribute="trailing" constant="75" id="usP-5T-DJF"/>
+                            <constraint firstAttribute="bottom" secondItem="oGj-dp-NPh" secondAttribute="bottom" constant="128" id="xWg-Rm-s1l"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="KOJ-Er-qRV"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EB5-n1-hGp" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
