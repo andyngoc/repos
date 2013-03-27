@@ -3,7 +3,7 @@ package com.example.helloword1;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
-
+/*comment -1*/
 public class MainActivity extends Activity {
 /*commennt 0*/
 	@Override
