@@ -2,6 +2,7 @@ package com.example.helloword1;
 
 import android.os.Bundle;
 import android.app.Activity;
+/*comment -2-2*/
 import android.view.Menu;
 /*comment -1*/
 public class MainActivity extends Activity {
