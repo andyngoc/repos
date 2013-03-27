@@ -22,12 +22,6 @@ public class MainActivity extends Activity {
 /*enter comment 2*/
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-<<<<<<< HEAD
-	/*insert 111*/
-	
-=======
-	/*12345678*/
->>>>>>> remotes/origin/master
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.activity_main, menu);
 		/**insert 000*/
