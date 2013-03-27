@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.view.Menu;
 /*comment -1*/
 public class MainActivity extends Activity {
+/*comment -2-2*/
 /*commennt 0*/
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
