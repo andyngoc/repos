@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.activity_main, menu);
 		/**insert 000*/
 		
-		return true;
+		return true;/*do thi ngoc thuy master edit*/
 		
 		/*insert 222*/
 	}
