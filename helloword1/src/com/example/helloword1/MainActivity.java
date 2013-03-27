@@ -17,6 +17,9 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 	}
 
+
+/*add comment add comment*/
+
 /*comment1*/
 /*enter comment 2*/
 /*enter comment 2*/
