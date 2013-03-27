@@ -11,6 +11,8 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 	}
+	/*enter line comment*/
+	/*enter line comment*/
 /*comment1*/
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
