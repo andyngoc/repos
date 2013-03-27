@@ -11,6 +11,8 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 	}
+	/*enter line comment*/
+	/*enter line comment*/
 /*comment1*/
 /*enter comment 2*/
 /*enter comment 2*/
