@@ -8,7 +8,9 @@ public class MainActivity extends Activity {
 /*commennt 0*/
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+	/*comment 000000000*/
 		super.onCreate(savedInstanceState);
+		/*comment 0000000*/
 		setContentView(R.layout.activity_main);
 	}
 	/*enter line comment*/
