@@ -11,11 +11,11 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 	}
-	/*enter line comment*/
-	/*enter line comment*/
+
 /*comment1*/
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
+	/*12345678*/
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.activity_main, menu);
 		/**insert 000*/
