@@ -20,4 +20,4 @@ public class MainActivity extends Activity {
 	}
 /*comment1*/
 }
-/*comment*/
+/*comment*//*comment 122*/
