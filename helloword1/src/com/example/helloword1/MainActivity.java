@@ -5,7 +5,7 @@ import android.app.Activity;
 /*comment -2-2*/
 import android.view.Menu;
 /*comment -1-1*/
-/*comment -1*/do thi ngoc thuy new branch test merge
+/*comment -1*//*do thi ngoc thuy new branch test merge*/
 public class MainActivity extends Activity {
 /*comment -2-2*/
 /*commennt 0*/
