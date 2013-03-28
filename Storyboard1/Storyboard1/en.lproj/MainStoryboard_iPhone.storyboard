@@ -44,7 +44,7 @@
                             <constraint firstItem="oGj-dp-NPh" firstAttribute="leading" secondItem="2Zz-fz-4FG" secondAttribute="leading" type="default" id="eSe-kd-xxm"/>
                             <constraint firstItem="GO1-UA-Xz2" firstAttribute="trailing" secondItem="Y8p-v5-QLr" secondAttribute="trailing" type="default" id="owB-lb-3kG"/>
                             <constraint firstAttribute="trailing" secondItem="oGj-dp-NPh" secondAttribute="trailing" constant="75" id="usP-5T-DJF"/>
-                            <constraint firstAttribute="bottom" secondItem="oGj-dp-NPh" secondAttribute="bottom" constant="128" id="xWg-Rm-s1l"/>
+                            <constraint firstAttribute="bottom" secondItem="oGj-dp-NPh" secondAttribute="bottom" constant="194" id="zuk-wj-n7h"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="KOJ-Er-qRV"/>
